@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>portfolio</title>
+  <link rel="stylesheet" href="#style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    <header>
+        <header>
+          <div class="logo">
+            <h1>portfo<span>lio</span></h1>
+          </div>
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#one">
+                
+              </a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Internships">Internship</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>          
+        </header>
+    </header>
+      <style>
+        *{
+          margin: 0;
+          padding: 0;
+          scroll-behavior: smooth;
+        }
+        header{
+          display: flex;
+          padding: 20px;
+          background-color: black;
+          align-items: center;
+        }
+        .logo h1{
+          font-family: sans-serif;
+          color: white;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        .nav-menu ul{
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          cursor: pointer;
+          float: right;
+          padding-left: 700px;
+          font-weight: bold;
+          gap: 26px;
+          
+        }
+        .nav-menu li{
+          list-style: none;
+          margin-right: 10px;
+        }
+        .nav-menu a{
+          text-decoration: none;
+          font-family: sans-serif;
+          color: white;
+          transition: all ease 0.3s;
+          float: right;
+        }
+        .nav-menu a:hover{
+        color: #fff;
+          text-shadow: 0 0 120px #fff,
+                      0 0 20px #fff,
+                      0 0 40px #fff,
+                      0 0 80px #fff,
+                      0 0 120px #fff;
+        }
+     </style>
+
+    
+    <!-- home ---------------------------->
+    
+    <section class="pic">
+        <img src="images/Web_Photo_Editor.jpg">
+    </section>
+    <section class="tej">
+        <h2>Hello ,</h2>       
+        <h3>wellcome to my <span>Portfolio</span>        
+    </section>
+    <style>
+        .pic img{
+            width: 40%;
+            float: right;
+            height: 15%;
+            padding-right: 60px;  
+          
+        }
+        
+        h3{
+            text-align: center;
+            font-size: 50px;
+            font-family: Calibri, sans-serif;
+            padding-bottom: 17.5%;
+            color:black;
+        }
+        .tej .span{
+            color: red;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            font-family: sans-serif;
+            color: black;
+        }
+        .tej{
+            
+            background-color: white;
+            padding-top: 14%;
+            padding-bottom: 40px;
+        }
+    </style>
+    
+
+
+
+     <!-- about ---------------------------->
+
+    <section id="about" class="about">    
+        <h3>About <span>me</span></h3>
+          <img src="images/IMG_20230613_140059_503.jpg">
+        <div class="aboutme">
+          <div class="about1">      
+            <h4><u> I'm  K . Thilak</u> <span><u>Teja</u></span></h4>
+            <p>Hey!! I'm reacentely graduated in "Avn institute of engineering and technology", In the field of mechanical engineering <br>Im an enthusiastic persion and seeking to start my career in software field</p>
+            <p>During my Bachelor's i have gained hands-on experience in programming languages like python as well as frountend <br> techonological skills "HTML" & "CSS" iam also proficient in "MY SQL" and "ORACALE"</p>
+            <P>My strength is that im a Quick learner and eager to take new challanges  .</P>
+          <button><a href="images/k.thilak resume - Copy.pdf" download ><i class="fa-sharp fa-solid fa-circle-down fa-2xl"></i> RESUME</a></button>
+        </div>
+      </section>
+      <style>
+        .about{
+          text-align: center;
+          background-color: black;
+          height: 750px;
+          width: 100%;
+        }
+        .about h3{
+          font-family: sans-serif;
+          font-size: 47px;
+          color: white;
+          padding-bottom: 80px;
+          padding-top: 5%;
+          
+        }
+        .about1 p{
+          font-family: sans-serif;
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 40px;
+          color: white;
+          text-align: left;
+          display: flex;
+          padding-right: 160px;
+
+        }
+        .aboutme{
+          display: flex;
+          justify-content: center;
+        }
+        .about1 h4{
+          color: white;
+          font-family: sans-serif;
+          font-size: 40px;
+          font-size: 30px;
+          line-height: 50px;
+          padding-bottom: 20px;
+          padding-right: 74%;
+        }
+        span{
+            color: red;
+        }
+        .about img{
+          width: 14%;
+          height: 49%;
+          float: left;       
+          padding-left: 10%;
+          padding-top: 30px;
+                    
+        }
+        .about button {
+          color: #fff;
+          padding: 15px 30px;
+          border-radius: 26px;
+          background-color: red;
+          transition: all 0.2s ease;
+          float: left;
+          
+
+        }
+        .about button :active{
+          transform: scale(0.96);
+        }
+        .about a{
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+          
+        }
+      </style>
+   </section>
+
+   <!--  education----------------------------------->
+
+   <section id="education" class="education">
+    <h2>Education</h2>
+    <div>
+      <img src="images/avn.jpeg" alt="">
+      <h1>AVNIET</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat autem enim mollitia voluptatibus quisquam velit voluptates, quos tempore ullam, libero commodi voluptate aliquid culpa at minus quo. Modi, illum.</p>
+    </div>
+    <div>
+      <img src="images/gmr.png" alt="">
+      <h1>GMRP</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro inventore iusto aut, animi exercitationem velit eveniet repudiandae perspiciatis doloremque dolores suscipit maxime necessitatibus tenetur ipsam! Deserunt numquam at dignissimos.</p>
+    </div>
+    <div class="img1">
+      <img src="images/ncghs.jpeg" alt="">
+      <h1>NCGHS</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe porro inventore iusto aut, animi exercitationem velit eveniet repudiandae perspiciatis doloremque dolores suscipit maxime necessitatibus tenetur ipsam! Deserunt numquam at dignissimos.</p>
+    </div>
+  </section>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .education div {
+      text-align: center;
+      display: inline-block;
+      width: 400px;
+      text-align: left;
+      margin: 50px;
+    }
+    .education img{
+      width: 40%;
+      height: 40%;
+      box-shadow: 0 0 15px black;
+      border-radius: 15px;
+      float: lef;
+    }
+    .education h2{
+      font-size: 50px;
+      padding-bottom: 60px;
+      padding-top: 60px;
+      font-weight: bold;
+    }
+    .education p{
+      font-family: sans-serif;
+      line-height: 30px;
+      padding-bottom: 90px;
+    }
+    .education h1{
+      font-family: sans-serif;
+      padding-top: 20PX;
+      padding-bottom: 10PX;
+    }
+    .education{
+      background-color: lightgrey;
+    }
+    
+
+  </style>
+
+<!-- internships ---------------------------->
+
+
+<section id="Internships" class="intern">
+  <h2>Internships</h2>
+  <div class="grid">
+    <div class="company">
+      <img src="images/drdo.png" alt="" />
+      <h3>DRDO</h3>
+      <p>
+        * I have done a mini project in "drdo/drdl" internship ina a period <br> of 3-months , i have got a grate experinece doing intrn in this organization 
+      </p>
+    </div>
+    <div class="company"> 
+      <img src="images/vision-removebg-preview.png" alt="" />
+      <h3>VISIONTEK</h3>
+      <p>
+      * I have worked as a "Injuction moulding meachine operator" in a period of 6-months , I have got a good experience and gained knowledge about moulds and injuction moulding machinery doing intern in this Organization
+      </p>
+    </div>
+  </div>
+</section>
+<style>
+    .intern{
+  font-size: 30px;
+  font-family: "sans-serif";
+  margin: 40px 80px;
+  text-align: center;
+  background-color: blac;
+}
+.intern h2{
+  font-size: 60px;
+  padding-bottom: 40;
+  padding-top: 30px;
+  color: black;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 60px;
+  padding-top: 70px;
+}
+.company img{
+  width: 33%;
+  height: 40%;
+
+}
+.company{
+  text-align: center;
+}
+.company h3{
+  font-size: 2rem;
+  padding-top: 14px;
+  padding-bottom: 20px;
+
+}
+.company p{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: sans-serif;
+  display: flex;
+  text-align: left;
+  padding-bottom: 140px;
+  
+}
+</style>
+
+<!-- projects ---------------------------->
+
+
+<section id="projects" class="project1">
+        <h1>Projects </h1>
+<p>This are the projects i have done in mechinical stream</p>
+<div>
+    <figure>
+        <img src="images/pneumatic.jpg">
+        <figcaption>Study of power streeing mechanism</figcaption>
+        <p> </p>
+    </figure>
+
+    <figure>
+      <img src="images/elevator.jpeg">
+      <figcaption>multi way elevator (major-project)</figcaption>
+      <p> </p> 
+  </figure>
+
+    <figure>
+        <img src="images/grass cutter.jpg">
+        <figcaption>solar grass cutter (mini-project)</figcaption>
+        <p></p>                
+    </figure>
+
+    <figure>
+        <img src="images/eco.png">
+        <figcaption>Eco friendly road cleaning meachine</figcaption>
+        <p></p>
+    </figure>
+</div>
+<style>
+  .project1 figure {
+      box-shadow: 0 0 5px black;
+      width: 300px;
+      padding: 20px;
+      display: inline-block;
+      margin: 10px ;
+  }
+  .project1 figure img{
+      width: 100%;
+  }
+  .project1{
+      padding-top: 40px;
+      padding-bottom: 200px;
+    
+  }
+  .project1 p{
+      font-size: 22px;
+      font-family: sans-serif;
+      color: #fff;
+      padding-left: 50px;
+  }
+  .project1 figcaption{
+      font-size: 30px;
+      font-family: sans-serif;
+      color: #fff;
+      padding-top: 10px;
+  }
+  .project1 h1{
+      font-family: sans-serif;
+      font-size: 50px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 25px;
+      color: #fff;
+  }
+  .project1{
+    background-color: black;
+  }
+  .project1 figure p{
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: #fff;
+  }
+</style>
+</section>
+
+<!-- contact ---------------------------->
+<section id="contact" class="contact">
+  <div>
+    <h1 class="sub">Contact me</h1>
+    <p><i class="fa-sharp fa-solid fa-envelope"></i> thilakteja9@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i>+91 9177134674</p>
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/kampati-thilak-teja-58ba28294/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BwYfKCPpDTBGtiajQLMZUoA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/mr_classic7/#"><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+  </div>        
+  <div>
+
+    <form name="submit-to-google-sheet">
+      <input type="text" name="Name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" rows="6" placeholder="Your message"></textarea>
+      <button type="submit">submit</button>
+    </form>
+    <span id="msg"></span>
+  </div>
+</section>
+<style>
+
+.contact p{
+  margin-top: 20px;
+  font-family: sans-serif;
+
+}
+.contact{
+  text-align: center;
+}
+.contact button {
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 16px;
+  background-color: rebeccapurple;
+  transition: all 0.5s ease;
+  float: left;
+
+}
+.contact button :active{
+  transform: scale(0.69);
+}
+.contact button {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  
+}
+.contact form{
+  width: 100%;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 3px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.contact div{
+  display: inline-block;
+  width: 300px;
+  margin: 40px;
+
+}
+.contact div h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.contact a{
+  margin-top: 30px;
+
+}
+.contact a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  display: inline-block;
+  color: #262626;
+  transform: 0.5s;
+}
+.contact a :hover{
+  color: blue;
+  transform: translateY(-5px);
+}
+
+#msg{
+  color: green;
+  margin-top: -10px;
+  display: block;
+}
+</style>
+<!--footer ----------------------------------->
+<footer class="footer">
+  <h6>This web page developed by K. Thilakteja <br>http//www.portfolio.com</h6>
+  
+</footer>
+  <style>
+  .footer{
+    background-color: gray;
+    height: 80px;
+  }
+  .footer h6{
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  </style>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyhfGVjMo03V8szo3aXu6LqDexerU0_xgBqhriM4a1FOeK6XDShQ2_UizKExL4-88Ou/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML= ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
+
+
+
